@@ -24,6 +24,17 @@
 
     <br></br>
 
+    Favourite Programming Language:
+    <input type="radio" th:field="*{favouriteLanguage}" th:each="tempLang : ${languages}" th:text="${tempLang}"
+           th:value="${tempLang}">
+    <br></br>
+
+    Favourite Operating Systems:
+    <input type="checkbox" th:field="*{favouriteSystems}" th:each="tempSystems : ${systems}" th:text="${tempSystems}"
+           th:value="${tempSystems}">
+
+
+    <br></br>
     <input type="submit" value="Submit"/>
     <!--When form submit Spring MVC will call setField -->
 </form>
