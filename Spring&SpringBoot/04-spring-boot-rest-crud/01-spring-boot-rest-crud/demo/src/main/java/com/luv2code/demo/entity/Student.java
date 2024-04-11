@@ -1,7 +1,6 @@
 package com.luv2code.demo.entity;
 
 public class Student {
-
     private String firstName;
     private String lastName;
 
