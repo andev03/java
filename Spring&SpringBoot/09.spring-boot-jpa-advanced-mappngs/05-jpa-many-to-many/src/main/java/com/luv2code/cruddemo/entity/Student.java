@@ -6,20 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "instructor")
-public class Instructor {
-    // annotate the class as an entity and map to db table
-
-    // define the fields
-
-    // annotate the fields with db column names
-
-    // ** set up mapping to InstructorDetail entity
-    // create constructors
-
-    // generate getter/setter methods
-
-    // generate toString() method
+@Table(name = "student")
+public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -35,18 +23,19 @@ public class Instructor {
     @Column(name = "email")
     private String email;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "instructor_detail_id")
-    private InstructorDetail instructorDetail;
-
-    @OneToMany(mappedBy = "instructor",
-            fetch = FetchType.LAZY,
-            cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
+    @ManyToMany(fetch = FetchType.LAZY,
+            cascade = {CascadeType.PERSIST, CascadeType.DETACH, CascadeType.MERGE, CascadeType.REFRESH})
+    @JoinTable(
+            name = "course_student",
+            joinColumns = @JoinColumn(name = "student_id"),
+            inverseJoinColumns = @JoinColumn(name = "course_id")
+    )
     private List<Course> courses;
-    public Instructor() {
+
+    public Student() {
     }
 
-    public Instructor(String firstName, String lastName, String email) {
+    public Student(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
@@ -84,14 +73,6 @@ public class Instructor {
         this.email = email;
     }
 
-    public InstructorDetail getInstructorDetail() {
-        return instructorDetail;
-    }
-
-    public void setInstructorDetail(InstructorDetail instructorDetail) {
-        this.instructorDetail = instructorDetail;
-    }
-
     public List<Course> getCourses() {
         return courses;
     }
@@ -100,24 +81,21 @@ public class Instructor {
         this.courses = courses;
     }
 
-    // add convenience methods for bi-directional relationshop
-    public void add(Course tempCourse){
-        if (courses == null){
+    // add a convenience methods
+    public void addCourse(Course theCourse) {
+        if (courses == null) {
             courses = new ArrayList<>();
         }
-        courses.add(tempCourse);
-
-        tempCourse.setInstructor(this);
+        courses.add(theCourse);
     }
 
     @Override
     public String toString() {
-        return "Instructor{" +
+        return "Student{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
-                ", instructorDetail=" + instructorDetail +
                 '}';
     }
 }
