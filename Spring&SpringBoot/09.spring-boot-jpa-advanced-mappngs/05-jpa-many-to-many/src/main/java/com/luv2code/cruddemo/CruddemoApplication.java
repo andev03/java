@@ -29,7 +29,7 @@ public class CruddemoApplication {
     }
 
     private void deleteStudent(AppDAO appDAO) {
-        int theId = 1;
+        int theId = 2;
         System.out.println("Delete student id: " + theId);
 
         appDAO.deleteStudentById(theId);
