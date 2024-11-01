@@ -1,6 +1,5 @@
 package com.hoangan.junitdemo;
 
-import com.luv2code.junitdemo.DemoUtils;
 import org.junit.jupiter.api.*;
 
 import java.time.Duration;

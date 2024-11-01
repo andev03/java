@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb2879a-1054-4317-8f72-e19372b1eb2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Spring_Security/section_15/springsecsection_15/src/main/resources/sql/scripts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Security/section_15/springsecsection_15/src/main/resources/sql/scripts.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/junitdemo/DemoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hoangan/junitdemo/DemoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hoangan/junitdemo/DemoUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hoangan/junitdemo/DemoUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainApp.executor": "Run",
+    "JUnit.ConditionalTest,testOnlyForDevEnvironment and 1 more.executor": "Run",
+    "JUnit.ConditionalTest.executor": "Run",
+    "JUnit.ConditionalTest.testForOnlyJreRangeMin.executor": "Run",
+    "JUnit.ConditionalTest.testOnlyForDevEnvironment.executor": "Run",
+    "JUnit.ConditionalTest.testOnlyForSystemProperty.executor": "Run",
     "JUnit.DemoUtilsTest.executor": "Run",
     "JUnit.DemoUtilsTest.testArrayEquals.executor": "Run",
     "JUnit.DemoUtilsTest.testIterableEquals.executor": "Run",
@@ -52,10 +59,15 @@
     "JUnit.DemoUtilsTest.testNullAndNotNull.executor": "Run",
     "JUnit.DemoUtilsTest.testThrowsAndZDoesNotThrow.executor": "Run",
     "JUnit.DemoUtilsTest.testTimeout.executor": "Run",
+    "JUnit.FizzBuzzTest.executor": "Run",
+    "JUnit.FizzBuzzTest.testForDivisibleByThree.executor": "Run",
+    "JUnit.FizzBuzzTest.testMediumDataFile.executor": "Run",
+    "JUnit.FizzBuzzTest.testSmallDataFile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "S:/Programming_Language/Study/Java/Practice/JUnit/1.00-starting-project/src/test/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,82 +77,87 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DemoUtilsTest">
-    <configuration name="DemoUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hoangan.tdd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\Programming_Language\Study\Java\Practice\JUnit\1.00-starting-project\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hoangan.tdd.MainApp" />
       <module name="junitdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hoangan.junitdemo.*" />
+          <option name="PATTERN" value="com.hoangan.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hoangan.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.hoangan.junitdemo.DemoUtilsTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hoangan.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hoangan.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.hoangan.tdd.FizzBuzzTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUtilsTest.testLinesMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.testForDivisibleByThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hoangan.junitdemo.*" />
+          <option name="PATTERN" value="com.hoangan.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hoangan.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.hoangan.junitdemo.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testLinesMatch" />
+      <option name="PACKAGE_NAME" value="com.hoangan.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.hoangan.tdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testForDivisibleByThree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUtilsTest.testThrowsAndZDoesNotThrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.testMediumDataFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hoangan.junitdemo.*" />
+          <option name="PATTERN" value="com.hoangan.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hoangan.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.hoangan.junitdemo.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testThrowsAndZDoesNotThrow" />
+      <option name="PACKAGE_NAME" value="com.hoangan.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.hoangan.tdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testMediumDataFile(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUtilsTest.testTimeout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.testSmallDataFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hoangan.junitdemo.*" />
+          <option name="PATTERN" value="com.hoangan.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hoangan.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.hoangan.junitdemo.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testTimeout" />
+      <option name="PACKAGE_NAME" value="com.hoangan.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.hoangan.tdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testSmallDataFile(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.hoangan.junitdemo in junitdemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hoangan.junitdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hoangan.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,13 +175,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MainApp" />
+      <item itemvalue="JUnit.FizzBuzzTest" />
+      <item itemvalue="JUnit.FizzBuzzTest.testForDivisibleByThree" />
+      <item itemvalue="JUnit.FizzBuzzTest.testMediumDataFile" />
+      <item itemvalue="JUnit.FizzBuzzTest.testSmallDataFile" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DemoUtilsTest" />
-        <item itemvalue="JUnit.com.hoangan.junitdemo in junitdemo" />
-        <item itemvalue="JUnit.DemoUtilsTest.testTimeout" />
-        <item itemvalue="JUnit.DemoUtilsTest.testThrowsAndZDoesNotThrow" />
-        <item itemvalue="JUnit.DemoUtilsTest.testLinesMatch" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.testMediumDataFile" />
+        <item itemvalue="JUnit.FizzBuzzTest.testSmallDataFile" />
+        <item itemvalue="JUnit.FizzBuzzTest.testForDivisibleByThree" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +212,7 @@
       <workItem from="1730380132672" duration="819000" />
       <workItem from="1730381065797" duration="2133000" />
       <workItem from="1730383877814" duration="5084000" />
+      <workItem from="1730421485919" duration="5686000" />
     </task>
     <servers />
   </component>

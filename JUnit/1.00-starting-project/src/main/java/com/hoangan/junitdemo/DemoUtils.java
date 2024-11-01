@@ -1,4 +1,4 @@
-package com.luv2code.junitdemo;
+package com.hoangan.junitdemo;
 
 import java.util.List;
 
