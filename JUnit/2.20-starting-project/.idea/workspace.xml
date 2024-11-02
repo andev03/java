@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c62eb98-afb0-4282-b0dc-bbbdc32cb98d" name="Changes" comment="" />
+    <list default="true" id="7c2ab920-9a23-4f1a-86a2-e5863999b414" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +20,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="2oEHx219zpiGsjeIAVtltnyhxTR" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2oFgqN46QOPiY9mdwSMngbdpnZn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -31,30 +31,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ApplicationExampleTest (1).executor": "Run",
-    "JUnit.ApplicationExampleTest.basicTest (1).executor": "Run",
-    "JUnit.ApplicationExampleTest.basicTest.executor": "Run",
-    "JUnit.ApplicationExampleTest.checkNullForStudentGrades.executor": "Run",
-    "JUnit.ApplicationExampleTest.createStudentWithoutGradeInit.executor": "Run",
-    "JUnit.ApplicationExampleTest.executor": "Run",
-    "JUnit.ApplicationExampleTest.isGradeGreaterStudentGrades.executor": "Run",
-    "JUnit.ApplicationExampleTest.verifyStudentsArePrototypes.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MockAnnotationTest.assertEqualsTestAndGrades.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MockAnnotationTest.assertEqualsTestFindGpa.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MockAnnotationTest.stubbingConsecutiveCalls.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MockAnnotationTest.throwRuntimeError.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ApplicationExampleTest.verifyStudentsArePrototypes">
-    <configuration name="ApplicationExampleTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.ReflectionTestUtilsTest">
+    <configuration name="MockAnnotationTest.assertEqualsTestAndGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-unit-testing-demo" />
       <extension name="coverage">
         <pattern>
@@ -63,72 +59,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.luv2code.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ApplicationExampleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.MockAnnotationTest" />
+      <option name="METHOD_NAME" value="assertEqualsTestAndGrades" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockAnnotationTest.assertEqualsTestFindGpa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-unit-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.test" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.MockAnnotationTest" />
+      <option name="METHOD_NAME" value="assertEqualsTestFindGpa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockAnnotationTest.stubbingConsecutiveCalls" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-unit-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.test" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.MockAnnotationTest" />
+      <option name="METHOD_NAME" value="stubbingConsecutiveCalls" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockAnnotationTest.throwRuntimeError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-unit-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.test" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.MockAnnotationTest" />
+      <option name="METHOD_NAME" value="throwRuntimeError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionTestUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-unit-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.test" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ReflectionTestUtilsTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationExampleTest.checkNullForStudentGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-unit-testing-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ApplicationExampleTest" />
-      <option name="METHOD_NAME" value="checkNullForStudentGrades" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationExampleTest.createStudentWithoutGradeInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-unit-testing-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ApplicationExampleTest" />
-      <option name="METHOD_NAME" value="createStudentWithoutGradeInit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationExampleTest.isGradeGreaterStudentGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-unit-testing-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ApplicationExampleTest" />
-      <option name="METHOD_NAME" value="isGradeGreaterStudentGrades" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationExampleTest.verifyStudentsArePrototypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-unit-testing-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ApplicationExampleTest" />
-      <option name="METHOD_NAME" value="verifyStudentsArePrototypes" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApplicationExampleTest.verifyStudentsArePrototypes" />
-        <item itemvalue="JUnit.ApplicationExampleTest.createStudentWithoutGradeInit" />
-        <item itemvalue="JUnit.ApplicationExampleTest.checkNullForStudentGrades" />
-        <item itemvalue="JUnit.ApplicationExampleTest (1)" />
-        <item itemvalue="JUnit.ApplicationExampleTest.isGradeGreaterStudentGrades" />
+        <item itemvalue="JUnit.ReflectionTestUtilsTest" />
+        <item itemvalue="JUnit.MockAnnotationTest.stubbingConsecutiveCalls" />
+        <item itemvalue="JUnit.MockAnnotationTest.throwRuntimeError" />
+        <item itemvalue="JUnit.MockAnnotationTest.assertEqualsTestFindGpa" />
+        <item itemvalue="JUnit.MockAnnotationTest.assertEqualsTestAndGrades" />
       </list>
     </recent_temporary>
   </component>
@@ -161,12 +157,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2c62eb98-afb0-4282-b0dc-bbbdc32cb98d" name="Changes" comment="" />
-      <created>1730428058182</created>
+      <changelist id="7c2ab920-9a23-4f1a-86a2-e5863999b414" name="Changes" comment="" />
+      <created>1730470927346</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1730428058182</updated>
-      <workItem from="1730428059473" duration="9398000" />
+      <updated>1730470927346</updated>
+      <workItem from="1730470928503" duration="5724000" />
+      <workItem from="1730540521090" duration="2427000" />
     </task>
     <servers />
   </component>
