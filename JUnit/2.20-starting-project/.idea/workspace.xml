@@ -31,24 +31,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.MockAnnotationTest.assertEqualsTestAndGrades.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MockAnnotationTest.assertEqualsTestFindGpa.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MockAnnotationTest.stubbingConsecutiveCalls.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MockAnnotationTest.throwRuntimeError.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.MockAnnotationTest.assertEqualsTestAndGrades.executor": "Run",
+    "JUnit.MockAnnotationTest.assertEqualsTestFindGpa.executor": "Run",
+    "JUnit.MockAnnotationTest.stubbingConsecutiveCalls.executor": "Run",
+    "JUnit.MockAnnotationTest.throwRuntimeError.executor": "Run",
+    "JUnit.ReflectionTestUtilsTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.ReflectionTestUtilsTest">
     <configuration name="MockAnnotationTest.assertEqualsTestAndGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-unit-testing-demo" />
@@ -163,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730470927346</updated>
       <workItem from="1730470928503" duration="5724000" />
-      <workItem from="1730540521090" duration="2427000" />
+      <workItem from="1730540521090" duration="3258000" />
     </task>
     <servers />
   </component>
