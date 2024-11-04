@@ -13,7 +13,6 @@ public class Gradebook {
     public Gradebook() {
 
     }
-
     public Gradebook(List<GradebookCollegeStudent> students) {
         this.students = students;
     }

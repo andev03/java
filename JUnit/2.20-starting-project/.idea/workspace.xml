@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c2ab920-9a23-4f1a-86a2-e5863999b414" name="Changes" comment="" />
+    <list default="true" id="7c2ab920-9a23-4f1a-86a2-e5863999b414" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/MvcTestingExampleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/MvcTestingExampleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/controller/GradebookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/controller/GradebookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/CollegeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/CollegeStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/Gradebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/Gradebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/GradebookCollegeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/GradebookCollegeStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/HistoryGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/HistoryGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/MathGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/MathGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/ScienceGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/ScienceGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/models/StudentGrades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/service/StudentAndGradeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/service/StudentAndGradeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/test/java/com/luv2code/springmvc/StudentAndGradeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/test/java/com/luv2code/springmvc/StudentAndGradeServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/controller/GradebookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/controller/GradebookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/models/CollegeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/models/CollegeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/models/Gradebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/models/Gradebook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/models/StudentGrades.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/models/StudentGrades.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/service/StudentAndGradeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/service/StudentAndGradeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/test-classes/com/luv2code/springmvc/StudentAndGradeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/test-classes/com/luv2code/springmvc/StudentAndGradeServiceTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,25 +55,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.MockAnnotationTest.assertEqualsTestAndGrades.executor": "Run",
-    "JUnit.MockAnnotationTest.assertEqualsTestFindGpa.executor": "Run",
-    "JUnit.MockAnnotationTest.stubbingConsecutiveCalls.executor": "Run",
-    "JUnit.MockAnnotationTest.throwRuntimeError.executor": "Run",
-    "JUnit.ReflectionTestUtilsTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MockAnnotationTest.assertEqualsTestAndGrades.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MockAnnotationTest.assertEqualsTestFindGpa.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MockAnnotationTest.stubbingConsecutiveCalls.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MockAnnotationTest.throwRuntimeError.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReflectionTestUtilsTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;S:/Programming_Language/Study/Java/Practice/JUnit/2.20-starting-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.ReflectionTestUtilsTest">
     <configuration name="MockAnnotationTest.assertEqualsTestAndGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-unit-testing-demo" />
@@ -165,6 +190,8 @@
       <updated>1730470927346</updated>
       <workItem from="1730470928503" duration="5724000" />
       <workItem from="1730540521090" duration="3258000" />
+      <workItem from="1730686571566" duration="74000" />
+      <workItem from="1730726099969" duration="618000" />
     </task>
     <servers />
   </component>

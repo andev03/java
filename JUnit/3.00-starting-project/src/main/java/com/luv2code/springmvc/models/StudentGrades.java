@@ -15,7 +15,8 @@ public class StudentGrades {
 
     private List<Grade> historyGradeResults;
 
-    public StudentGrades() {}
+    public StudentGrades() {
+    }
 
     public double addGradeResultsForSingleClass(List<Grade> grades) {
         double result = 0;
@@ -25,7 +26,7 @@ public class StudentGrades {
         return result;
     }
 
-    public double findGradePointAverage (List<Grade> grades ) {
+    public double findGradePointAverage(List<Grade> grades) {
         int lengthOfGrades = grades.size();
         double sum = addGradeResultsForSingleClass(grades);
         double result = sum / lengthOfGrades;
