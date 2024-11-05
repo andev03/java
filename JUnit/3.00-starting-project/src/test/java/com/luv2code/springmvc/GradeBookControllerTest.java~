@@ -292,7 +292,7 @@ public class GradeBookControllerTest {
         assertTrue(mathGrade.isPresent());
 
         MvcResult mvcResult = this.mockMvc.perform(MockMvcRequestBuilders
-                        .get("/grades/{id}/{gradeType}", 1, "math"))
+                        .get("/deleteGrade/{id}/{gradeType}", 1, "math"))
                 .andExpect(status().isOk()).andReturn();
 
         ModelAndView mav = mvcResult.getModelAndView();
