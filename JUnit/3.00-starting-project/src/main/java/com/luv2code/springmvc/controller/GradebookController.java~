@@ -1,6 +1,8 @@
 package com.luv2code.springmvc.controller;
 
-import com.luv2code.springmvc.models.*;
+import com.luv2code.springmvc.models.CollegeStudent;
+import com.luv2code.springmvc.models.Gradebook;
+import com.luv2code.springmvc.models.GradebookCollegeStudent;
 import com.luv2code.springmvc.service.StudentAndGradeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -58,7 +60,6 @@ public class GradebookController {
 
         studentService.configureStudentInformationModel(id, m);
 
-
         return "studentInformation";
     }
 
@@ -67,6 +68,7 @@ public class GradebookController {
                               @RequestParam("gradeType") String gradeType,
                               @RequestParam("studentId") int studentId,
                               Model m) {
+        GradebookCollegeStudent studentEntity = studentService.studentInformation(studentId);
 
         if (!studentService.checkIfStudentIsNull(studentId)) {
             return "error";
@@ -80,18 +82,25 @@ public class GradebookController {
 
         studentService.configureStudentInformationModel(studentId, m);
 
+        m.addAttribute("student", studentEntity);
+
         return "studentInformation";
     }
 
     @GetMapping("/grades/{id}/{gradeType}")
     public String deleteGrade(@PathVariable int id, @PathVariable String gradeType, Model m) {
 
+        GradebookCollegeStudent studentEntity = studentService.studentInformation(id);
+
         int studentId = studentService.deleteGrade(id, gradeType);
 
-        if(studentId == 0){
+        if (studentId == 0) {
             return "error";
         }
 
+        studentService.configureStudentInformationModel(studentId, m);
+        
+        m.addAttribute("student", studentEntity);
 
         return "studentInformation";
     }

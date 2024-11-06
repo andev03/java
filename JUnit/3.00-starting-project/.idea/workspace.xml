@@ -6,16 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="75653dac-6fde-4bf1-b9b2-f191a6f66339" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/controller/GradebookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/controller/GradebookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/repository/HistoryGradeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/repository/HistoryGradeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/repository/MathDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/repository/MathDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/repository/ScienceGradeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/repository/ScienceGradeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/service/StudentAndGradeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/service/StudentAndGradeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/studentInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/studentInformation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/luv2code/springmvc/GradeBookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/springmvc/GradeBookControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/luv2code/springmvc/StudentAndGradeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/springmvc/StudentAndGradeServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springmvc/controller/GradebookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springmvc/controller/GradebookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springmvc/service/StudentAndGradeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springmvc/service/StudentAndGradeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/studentInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/studentInformation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luv2code/springmvc/GradeBookControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/luv2code/springmvc/GradeBookControllerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/luv2code/springmvc/StudentAndGradeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/luv2code/springmvc/StudentAndGradeServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,65 +47,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.GradeBookControllerTest.createANonValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse.executor": "Run",
-    "JUnit.GradeBookControllerTest.createAValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse.executor": "Run",
-    "JUnit.GradeBookControllerTest.createAValidGradeHttpRequestStudentDoesNotExistEmptyResponse.executor": "Run",
-    "JUnit.GradeBookControllerTest.createGradeService.executor": "Run",
-    "JUnit.GradeBookControllerTest.createGradeServiceReturnFalse.executor": "Run",
-    "JUnit.GradeBookControllerTest.createStudentHttpRequest.executor": "Run",
-    "JUnit.GradeBookControllerTest.createValidGradeHttpRequest.executor": "Run",
-    "JUnit.GradeBookControllerTest.deleteAValidGradeHttpRequest.executor": "Run",
-    "JUnit.GradeBookControllerTest.deleteGradeService.executor": "Run",
-    "JUnit.GradeBookControllerTest.deleteGradeServiceReturnStudentIdOfZero.executor": "Run",
-    "JUnit.GradeBookControllerTest.deleteStudentHttpRequest.executor": "Run",
-    "JUnit.GradeBookControllerTest.deleteStudentHttpRequestErrorPage.executor": "Run",
-    "JUnit.GradeBookControllerTest.executor": "Run",
-    "JUnit.GradeBookControllerTest.getStudentsHttpRequest.executor": "Run",
-    "JUnit.GradeBookControllerTest.studentInformationHttpRequest.executor": "Run",
-    "JUnit.GradeBookControllerTest.studentInformationHttpStudentDoesNotExistRequest.executor": "Run",
-    "JUnit.StudentAndGradeServiceTest.deleteStudentService.executor": "Run",
-    "JUnit.StudentAndGradeServiceTest.executor": "Run",
-    "JUnit.StudentAndGradeServiceTest.getGradeBookService.executor": "Run",
-    "JUnit.StudentAndGradeServiceTest.isStudentNullCheck.executor": "Run",
-    "JUnit.StudentAndGradeServiceTest.studentInformation.executor": "Run",
-    "JUnit.StudentAndGradeServiceTest.studentInformationServiceReturnNull.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.MvcTestingExampleApplication.executor": "Run",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "S:/Programming_Language/Study/Java/Practice/JUnit/2.00-starting-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.GradeBookControllerTest.createANonValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.createAValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.createAValidGradeHttpRequestStudentDoesNotExistEmptyResponse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.createGradeService.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.createGradeServiceReturnFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.createStudentHttpRequest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.createValidGradeHttpRequest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.deleteANonValidGradeHttpRequest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.deleteAValidGradeHttpRequest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.deleteAValidGradeHttpRequestStudentIdDoesNotExistEmptyResponse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.deleteGradeService.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.deleteGradeServiceReturnStudentIdOfZero.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.deleteStudentHttpRequest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.deleteStudentHttpRequestErrorPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.getStudentsHttpRequest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.studentInformationHttpRequest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeBookControllerTest.studentInformationHttpStudentDoesNotExistRequest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentAndGradeServiceTest.deleteStudentService.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentAndGradeServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentAndGradeServiceTest.getGradeBookService.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentAndGradeServiceTest.isStudentNullCheck.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentAndGradeServiceTest.studentInformation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentAndGradeServiceTest.studentInformationServiceReturnNull.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MvcTestingExampleApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;S:/Programming_Language/Study/Java/Practice/JUnit/3.00-starting-project/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.GradeBookControllerTest.deleteAValidGradeHttpRequest">
-    <configuration name="GradeBookControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mvc-testing-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.springmvc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\Programming_Language\Study\Java\Practice\JUnit\3.00-starting-project\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MvcTestingExampleApplication">
     <configuration name="GradeBookControllerTest.createANonValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-mvc-testing-demo" />
       <extension name="coverage">
@@ -124,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeBookControllerTest.createAValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GradeBookControllerTest.deleteANonValidGradeHttpRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-mvc-testing-demo" />
       <extension name="coverage">
         <pattern>
@@ -134,23 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
       <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
-      <option name="METHOD_NAME" value="createAValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GradeBookControllerTest.createAValidGradeHttpRequestStudentDoesNotExistEmptyResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mvc-testing-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.springmvc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
-      <option name="METHOD_NAME" value="createAValidGradeHttpRequestStudentDoesNotExistEmptyResponse" />
+      <option name="METHOD_NAME" value="deleteANonValidGradeHttpRequest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,6 +146,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GradeBookControllerTest.deleteAValidGradeHttpRequestStudentIdDoesNotExistEmptyResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mvc-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
+      <option name="METHOD_NAME" value="deleteAValidGradeHttpRequestStudentIdDoesNotExistEmptyResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentAndGradeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mvc-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.StudentAndGradeServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MvcTestingExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-mvc-testing-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.springmvc.MvcTestingExampleApplication" />
@@ -181,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentAndGradeServiceTest" />
+        <item itemvalue="JUnit.GradeBookControllerTest.deleteANonValidGradeHttpRequest" />
+        <item itemvalue="JUnit.GradeBookControllerTest.deleteAValidGradeHttpRequestStudentIdDoesNotExistEmptyResponse" />
         <item itemvalue="JUnit.GradeBookControllerTest.deleteAValidGradeHttpRequest" />
         <item itemvalue="JUnit.GradeBookControllerTest.createANonValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse" />
-        <item itemvalue="JUnit.GradeBookControllerTest.createAValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse" />
-        <item itemvalue="JUnit.GradeBookControllerTest.createAValidGradeHttpRequestStudentDoesNotExistEmptyResponse" />
-        <item itemvalue="JUnit.GradeBookControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +214,8 @@
       <workItem from="1730566974061" duration="16000" />
       <workItem from="1730608032491" duration="15765000" />
       <workItem from="1730684301464" duration="30175000" />
-      <workItem from="1730773334175" duration="24630000" />
+      <workItem from="1730773334175" duration="27999000" />
+      <workItem from="1730875998267" duration="598000" />
     </task>
     <servers />
   </component>

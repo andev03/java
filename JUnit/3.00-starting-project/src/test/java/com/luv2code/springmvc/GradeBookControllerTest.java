@@ -34,7 +34,7 @@ import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@TestPropertySource("/application.properties")
+@TestPropertySource("/application-test.properties")
 @AutoConfigureMockMvc
 @SpringBootTest
 public class GradeBookControllerTest {
@@ -260,10 +260,10 @@ public class GradeBookControllerTest {
     public void createAValidGradeHttpRequestStudentDoesNotExistEmptyResponse() throws Exception {
 
         MvcResult mvcResult = this.mockMvc.perform(post("/grades")
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .param("grade", "85.00")
-                        .param("gradeType", "history")
-                        .param("studentId", "0")).andExpect(status().isOk()).andReturn();
+                .contentType(MediaType.APPLICATION_JSON)
+                .param("grade", "85.00")
+                .param("gradeType", "history")
+                .param("studentId", "0")).andExpect(status().isOk()).andReturn();
 
         ModelAndView mav = mvcResult.getModelAndView();
 
@@ -274,10 +274,10 @@ public class GradeBookControllerTest {
     public void createANonValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse() throws Exception {
 
         MvcResult mvcResult = this.mockMvc.perform(post("/grades")
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .param("grade", "85.00")
-                        .param("gradeType", "literature")
-                        .param("studentId", "1")).andExpect(status().isOk()).andReturn();
+                .contentType(MediaType.APPLICATION_JSON)
+                .param("grade", "85.00")
+                .param("gradeType", "literature")
+                .param("studentId", "1")).andExpect(status().isOk()).andReturn();
 
         ModelAndView mav = mvcResult.getModelAndView();
 
@@ -304,7 +304,33 @@ public class GradeBookControllerTest {
         assertFalse(mathGrade.isPresent());
     }
 
+    @Test
+    public void deleteAValidGradeHttpRequestStudentIdDoesNotExistEmptyResponse() throws Exception {
 
+        Optional<MathGrade> mathGrade = mathGradeDao.findById(2);
+
+        assertFalse(mathGrade.isPresent());
+
+        MvcResult mvcResult = this.mockMvc.perform(MockMvcRequestBuilders
+                        .get("/grades/{id}/{gradeType}", 2, "math"))
+                .andExpect(status().isOk()).andReturn();
+
+        ModelAndView mav = mvcResult.getModelAndView();
+
+        ModelAndViewAssert.assertViewName(mav, "error");
+    }
+
+    @Test
+    public void deleteANonValidGradeHttpRequest() throws Exception {
+
+        MvcResult mvcResult = this.mockMvc.perform(MockMvcRequestBuilders
+                        .get("/grades/{id}/{gradeType}", 1, "literature"))
+                .andExpect(status().isOk()).andReturn();
+
+        ModelAndView mav = mvcResult.getModelAndView();
+
+        ModelAndViewAssert.assertViewName(mav, "error");
+    }
     @AfterEach
     public void setupAfterTransaction() {
         jdbc.execute("delete from student");

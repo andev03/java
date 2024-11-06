@@ -140,7 +140,7 @@ public class StudentAndGradeServiceTest {
             collegeStudents.add(iterableCollegeStudent);
         }
 
-        assertEquals(5, collegeStudents.size());
+        assertEquals(6, collegeStudents.size());
     }
 
     @Test
