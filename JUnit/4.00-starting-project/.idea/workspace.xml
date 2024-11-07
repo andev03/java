@@ -4,36 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ca5a9f5-929c-461d-ac43-b68135cb1e84" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/controller/GradebookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/java/com/luv2code/springmvc/controller/GradebookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/main/resources/templates/studentInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/main/resources/templates/studentInformation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/test/java/com/luv2code/springmvc/GradeBookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/test/java/com/luv2code/springmvc/GradeBookControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/src/test/java/com/luv2code/springmvc/StudentAndGradeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/src/test/java/com/luv2code/springmvc/StudentAndGradeServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/controller/GradebookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/classes/com/luv2code/springmvc/controller/GradebookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/classes/templates/studentInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/classes/templates/studentInformation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/test-classes/com/luv2code/springmvc/GradeBookControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/test-classes/com/luv2code/springmvc/GradeBookControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.00-starting-project/target/test-classes/com/luv2code/springmvc/StudentAndGradeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.00-starting-project/target/test-classes/com/luv2code/springmvc/StudentAndGradeServiceTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="7ca5a9f5-929c-461d-ac43-b68135cb1e84" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2oSypVtVo0jSUdTRXmyrNsRgmhG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.GradeBookControllerTest.createANonValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse.executor": "Run",
+    "JUnit.GradeBookControllerTest.createAValidGradeHttpRequest.executor": "Run",
+    "JUnit.GradeBookControllerTest.createAValidGradeHttpRequestStudentDoesNotExistEmptyResponse.executor": "Run",
+    "JUnit.GradeBookControllerTest.createStudentHttpRequest.executor": "Run",
+    "JUnit.GradeBookControllerTest.deleteANonValidGradeHttpRequest.executor": "Run",
+    "JUnit.GradeBookControllerTest.deleteAValidGradeHttpRequest.executor": "Run",
+    "JUnit.GradeBookControllerTest.deleteAValidGradeHttpRequestStudentIdDoesNotExistEmptyResponse.executor": "Run",
+    "JUnit.GradeBookControllerTest.deleteStudentHttpRequest.executor": "Run",
+    "JUnit.GradeBookControllerTest.deleteStudentHttpRequestErrorPage.executor": "Run",
+    "JUnit.GradeBookControllerTest.executor": "Run",
+    "JUnit.GradeBookControllerTest.getStudentsHttpRequest.executor": "Run",
+    "JUnit.GradeBookControllerTest.placeholder.executor": "Run",
+    "JUnit.GradeBookControllerTest.studentInformationHttpRequest.executor": "Run",
+    "JUnit.GradeBookControllerTest.studentInformationHttpRequestEmptyResponse.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
@@ -46,7 +59,87 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GradeBookControllerTest.deleteANonValidGradeHttpRequest">
+    <configuration name="GradeBookControllerTest.createANonValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-testing-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
+      <option name="METHOD_NAME" value="createANonValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeBookControllerTest.createAValidGradeHttpRequestStudentDoesNotExistEmptyResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-testing-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
+      <option name="METHOD_NAME" value="createAValidGradeHttpRequestStudentDoesNotExistEmptyResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeBookControllerTest.deleteANonValidGradeHttpRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-testing-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
+      <option name="METHOD_NAME" value="deleteANonValidGradeHttpRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeBookControllerTest.deleteAValidGradeHttpRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-testing-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
+      <option name="METHOD_NAME" value="deleteAValidGradeHttpRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeBookControllerTest.deleteAValidGradeHttpRequestStudentIdDoesNotExistEmptyResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-testing-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
+      <option name="METHOD_NAME" value="deleteAValidGradeHttpRequestStudentIdDoesNotExistEmptyResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MvcTestingExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-testing-annotation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.springmvc.MvcTestingExampleApplication" />
@@ -54,6 +147,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GradeBookControllerTest.deleteANonValidGradeHttpRequest" />
+        <item itemvalue="JUnit.GradeBookControllerTest.deleteAValidGradeHttpRequestStudentIdDoesNotExistEmptyResponse" />
+        <item itemvalue="JUnit.GradeBookControllerTest.deleteAValidGradeHttpRequest" />
+        <item itemvalue="JUnit.GradeBookControllerTest.createANonValidGradeHttpRequestGradeTypeDoesNotExistEmptyResponse" />
+        <item itemvalue="JUnit.GradeBookControllerTest.createAValidGradeHttpRequestStudentDoesNotExistEmptyResponse" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -71,7 +173,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730877454786</updated>
-      <workItem from="1730877456023" duration="2484000" />
+      <workItem from="1730877456023" duration="8185000" />
+      <workItem from="1730932636297" duration="5028000" />
     </task>
     <servers />
   </component>
