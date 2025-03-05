@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cba7f2d7-7a6a-4798-8ac0-ac4e9997f107" name="Changes" comment="">
+    <list default="true" id="d25de2a5-bad2-4975-8361-56ea7c65ad42" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../JUnit/4.00-starting-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JUnit/4.00-starting-project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../section9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../section9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section_10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../section_10/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +18,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2nqB1GN3OUg1XbPa44UJ5HVGGFq" />
+  <component name="ProjectId" id="2pFdqzyBKsSJ1mVkDNHNcrmJD3H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,32 +31,38 @@
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;S:/Programming_Language/Study/Java/Practice/Spring_Security/section5/springsecsection5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;S:/Programming_Language/Study/Java/Practice/Spring_Security/section_11&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="EazyBankBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springsecsection_11" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.EazyBankBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cba7f2d7-7a6a-4798-8ac0-ac4e9997f107" name="Changes" comment="" />
-      <created>1729690509144</created>
+      <changelist id="d25de2a5-bad2-4975-8361-56ea7c65ad42" name="Changes" comment="" />
+      <created>1732365952230</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1729690509144</updated>
-      <workItem from="1729690510523" duration="903000" />
-      <workItem from="1729691741019" duration="3132000" />
-      <workItem from="1729695178362" duration="4743000" />
-      <workItem from="1729730199376" duration="381000" />
-      <workItem from="1729731361432" duration="6964000" />
-      <workItem from="1729746061743" duration="2572000" />
-      <workItem from="1729779796986" duration="4103000" />
-      <workItem from="1729816230800" duration="3417000" />
-      <workItem from="1729923988575" duration="599000" />
+      <updated>1732365952230</updated>
+      <workItem from="1732365953335" duration="1965000" />
+      <workItem from="1732455523210" duration="59000" />
+      <workItem from="1732455639391" duration="468000" />
+      <workItem from="1736147739840" duration="11000" />
     </task>
     <servers />
   </component>
